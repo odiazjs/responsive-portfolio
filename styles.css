@@ -1,5 +1,52 @@
 :root {
     --u-light-blue:#02b3e4;
-    --u-gray: #2d3c49;
+    --u-gray: #525659;
     --u-light-gray: #7d97ad;
+}
+
+.header {
+    width: 100%;
+    background-color: var(--u-gray);
+    display: list-item;
+    min-height: 75px;
+}
+
+.name-container {
+    width: 100%;
+    padding: 20px;
+    clear: both;
+    font-family: roboto;
+    font-size: 40px;
+    float: right;
+}
+
+.main-name {
+    width: 100%;
+    display: inline-block;
+    float: right;
+    font-family: roboto;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.skill {
+    font-size: 20px;
+    width: 100%;
+    display: block;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.separator {
+    min-height: 2px;
+    background-color: var(--u-gray);
+}
+
+.logo {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    display: inline-block;
+    vertical-align: -webkit-baseline-middle;
+    padding-left: 5%;
 }
