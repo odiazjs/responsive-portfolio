@@ -6,23 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oscar Diaz Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/grid.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
   </head>
   <body>
     <div class="container">
-        <header class="header">
-        </header>
-        <section class="headline">
-            <div class="name-container">
-                <img class="logo" src="./udacitylogo.png" alt="Udacity logo"/>
-                <label class="main-name">Oscar Diaz</label>
-                <label class="skill">Front-End Ninja</label>
+            <header class="header"></header>
+            <div class="flex-container">
+                <div class="flex-item-1"></div>
+                <div class="flex-item-2">
+                    <section class="headline">
+                        <div class="name-container">
+                            <img class="logo" src="./udacitylogo.png" alt="Udacity logo"/>
+                            <label class="main-name">Oscar Diaz</label>
+                            <label class="skill">Front-End Ninja</label>
+                        </div>
+                    </section>
+                    <hr class="separator" />
+                    <section class="carousel">
+                        <img class="caret" src="./design.jpg" alt="Portfolio caret"/>
+                    </section>
+                    <div class="columns">
+                        <section class="featured-work">
+                            Featured Work
+                        </section>
+                        <div class="flex-container">
+                            <div class="col-1">
+                                <img class="project" src="./project1.jpg" alt="Project 1" />
+                                <div class="project-label">Tradepacks <p>https://github.com/thinkblue36/TradePacks2.0</p></div>
+                            </div>
+                            <div class="col-2">
+                                <img class="project" src="./project2.jpg" alt="Project 2" />
+                                <div class="project-label">Angular 2 <p>https://github.com/thinkblue36/angular2-http-rxjs</p></div>                                
+                            </div>
+                            <div class="col-3">
+                                <img class="project" src="./project3.jpg" alt="Project 3" />
+                                <div class="project-label">Nativescript <p>https://github.com/thinkblue36/nativescript-http-rxjs</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-item-3"></div>  
             </div>
-        </section>
-        <hr class="separator" />
-        <section>
-            <img class="caret" src="./portfoliocaret.jpg" alt="Portfolio caret"/>
-        </section>
     </div>
   </body>
 </html>
