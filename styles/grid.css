@@ -1,6 +1,6 @@
 .flex-container {
-    display: -webkit-flex;
     display: flex;
+    flex-direction: row;
     width: 100%;
 }
 
@@ -20,7 +20,7 @@
 /** Media Queries */
 @media screen and (max-width: 600px) {
     .flex-container {
-        display: block;
+        flex-direction: column;
     }
     .flex-item-1 {
         width: 0%;
